@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/*--------------SUPERBUTTON  V 0.1--------------*/
+/*                                              */
+/*        © 2015 by Max Bause (K0W4L5K1)        */
+/*                  Enjoy :)                    */
+/*                                              */
+/*----------------------------------------------*/
+
+
+/*----------------------------------------------*/
+/*  Add the sizes you want!                     */
+/*  It is very important to use "rem" as unit.  */
+/*  1rem = 16px                                 */
+/*----------------------------------------------*/
+
+.sf-s--small{
+  font-size: 1rem;
+}
+
+.sf-s--normal{
+  font-size: 1.5rem;
+}
+
+.sf-s--big{
+  font-size: 2rem;
+}
+
+.sf{
+  font-family: 'Roboto', sans-serif;
+  -webkit-appearance: none;
+  outline: none;
+  border-radius: 0.125em;
+  border: 0.0625em solid;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  color: #757575;
+}
+
+.sf-c--normal{
+  color: #2979FF;
+  border-color: #2979FF;
+}
+
+.sf-c--okay{
+  color: #00E676;
+  border-color: #00E676;
+}
+
+.sf-c--alert{
+  color: #FFEA00;
+  border-color: #FFEA00;
+}
+
+.sf-c--warning{
+  color: #FF1744;
+  border-color: #FF1744;
+}
+
+.sf-c--dark{
+  color: #212121;
+  border-color: #212121;
+}
+
+.sf-c-normalText{
+  color: #757575;
+}
