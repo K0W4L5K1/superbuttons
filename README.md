@@ -1,3 +1,3 @@
 # Superbuttons
-##V 0.0
+##V 0.1
 ####This project is currently **work in progress**

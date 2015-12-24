@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/*--------------SUPERBUTTON  V 0.1--------------*/
+/*                                              */
+/*        © 2015 by Max Bause (K0W4L5K1)        */
+/*                  Enjoy :)                    */
+/*                                              */
+/*----------------------------------------------*/
+
+
+/*----------------------------------------------*/
+/*  Add the sizes you want!                     */
+/*  It is very important to use "rem" as unit.  */
+/*  1rem = 16px                                 */
+/*----------------------------------------------*/
+
+.sb-s--small{
+  font-size: 1rem;
+}
+
+.sb-s--normal{
+  font-size: 1.5rem;
+}
+
+.sb-s--big{
+  font-size: 2rem;
+}
+
+.sb{
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #616161;
+  border-radius: 0.125em;
+  border: 0.0625em solid;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.sb-c--normal{
+  color: #2979FF;
+  border-color: #2979FF;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.sb-c--okay{
+  color: #00E676;
+  border-color: #00E676;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.sb-c--alert{
+  color: #FFEA00;
+  border-color: #FFEA00;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.sb-c--warning{
+  color: #FF1744;
+  border-color: #FF1744;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.sb-c--dark{
+  color: #212121;
+  border-color: #212121;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.sb-c--normal:hover{
+  color: #FFFFFF;
+  background-color: #2979FF;
+}
+
+.sb-c--okay:hover{
+  color: #FFFFFF;
+  background-color: #00E676;
+}
+
+.sb-c--alert:hover{
+  color: #FFFFFF;
+  background-color: #FFEA00;
+}
+
+.sb-c--warning:hover{
+  color: #FFFFFF;
+  background-color: #FF1744;
+}
+
+.sb-c--dark:hover{
+  color: #FFFFFF;
+  background-color: #212121;
+}
+
+.sb--disabled{
+  color: #757575;
+  pointer-events: none;
+  cursor: default;
+}
